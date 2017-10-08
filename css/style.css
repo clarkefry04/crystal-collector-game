@@ -1,0 +1,50 @@
+
+
+h1{
+	font-family: 'Georgia', sans-serif;
+}
+
+p{
+	font-family: 'Georgia', sans-serif;
+	font-size: 14px !important;
+}
+
+.row{
+	margin: 5px 30px;
+}
+
+.jumbotron{
+	margin-bottom: 0px;
+	padding: 10px;
+}
+
+.jewell{
+	padding: 0px 20px 0px 0px;
+	margin: 0px;
+}
+
+#main{
+	font-family: 'Georgia', sans-serif;
+}
+
+#winslosses{
+	background-color: #3661a2;
+	color: #e9ebee;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: gray;
+	margin-top: 5px;
+}
+
+#wins{
+	font-size: 25px !important;
+	border-bottom: 1px, solid, gray;
+	margin: 10px;
+}
+
+#losses{
+	font-size: 25px !important;
+	margin: 10px;
+}
+
