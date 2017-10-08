@@ -43,7 +43,7 @@ function reset() {
 
 
 // Red Jewell on Click functionality
-$("#redjewel").on("click", function() {
+$("#redjewel").on("click touch", function() {
 	playerCounter = playerCounter + redJewelNumber;
 	$("#currentscore").html("Your Number: " + playerCounter);
 
@@ -78,7 +78,7 @@ $("#redjewel").on("click", function() {
 
 
 // Green Jewel on Click fuctionality
-$("#greenjewel").on("click", function() {
+$("#greenjewel").on("click touch", function() {
 	playerCounter = playerCounter + greenJewelNumber;
 	$("#currentscore").html("Your Number: " + playerCounter);
 
@@ -105,7 +105,7 @@ $("#greenjewel").on("click", function() {
 });
 
 // Yellow Jewel On Click Functionality
-$("#yellowjewel").on("click", function() {
+$("#yellowjewel").on("click touch", function() {
 	playerCounter = playerCounter + yellowJewelNumber;
 	$("#currentscore").html("Your Number: " + playerCounter);
 
@@ -132,7 +132,7 @@ $("#yellowjewel").on("click", function() {
 });
 
 // Blue Jewell On Click Functionality
-$("#bluejewel").on("click", function() {
+$("#bluejewel").on("click touch", function() {
 	playerCounter = playerCounter + blueJewelNumber;
 	$("#currentscore").html("Your Number: " + playerCounter);
 
